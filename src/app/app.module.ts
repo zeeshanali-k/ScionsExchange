@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ExchangePageComponent } from './components/exchange-page/exchange-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ExchangePageComponent
   ],
   imports: [
     BrowserModule,
